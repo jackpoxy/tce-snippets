@@ -1,1 +1,11 @@
-{}
+{
+	"Row": {
+		"prefix": "hello-go",
+		"body": [
+			"<Row gap={20} showSplitLine verticalAlign=${1|\"top\",\"bottom\",\"middle\"|}>",
+			"\t$2",
+			"</Row>"
+		],
+		"description": "Log output to console"
+	}
+}
