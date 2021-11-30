@@ -3,7 +3,8 @@
 	"displayName": "tce-snippets",
 	"description": "snippets for tce components",
 	"publisher": "tce",
-	"version": "0.0.1",
+	"icon": "images/icon.png",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
