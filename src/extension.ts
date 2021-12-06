@@ -504,6 +504,13 @@ export function activate(context: vscode.ExtensionContext) {
 - 默认值：undefined
 - 必填：否
     `,
+    fetchParam: `
+- 参数：fetchParam
+- 说明：自定义请求参数
+- 类型：any
+- 默认值：undefined
+- 必填：否
+    `,
     onFetchData样例: `
     function onFetchData(params, fetchParam, setRecords) {
       console.log('search params: ', params);

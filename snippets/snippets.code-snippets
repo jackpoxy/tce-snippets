@@ -613,7 +613,7 @@
 	"TablePage_分页 & 数据请求表格": {
 		"prefix": "tce-tablePage",
 		"body": [
-			"<TablePage onFetchData={onFetchData样例} columns={columns样例} pageConfig />"
+			"<TablePage card={false} onFetchData={onFetchData样例} columns={columns样例} fetchParam={projectId} pageConfig={{ recordCount: 0, pageSize: 10 }} />"
 		],
 		"description": "TablePage_分页 & 数据请求表格"
 	},
