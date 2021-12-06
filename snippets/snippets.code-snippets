@@ -616,5 +616,58 @@
 			"<TablePage onFetchData={onFetchData样例} columns={columns样例} pageConfig />"
 		],
 		"description": "TablePage_分页 & 数据请求表格"
+	},
+	"useState": {
+		"prefix": "us",
+		"body": [
+			"const [${1:state}, ${2:setState}] = useState<${3}>(${4});"
+		],
+		"description": "useState"
+	},
+	"useEffect": {
+		"prefix": "ue",
+		"body": [
+			"useEffect(() => {",
+			"  ${1://doSomeThing}",
+			"}, []);"
+		],
+		"description": "useEffect"
+	},
+	"useContext": {
+		"prefix": "uct",
+		"body": [
+			"const ${1:value} = useContext(${2:contextExample});"
+		],
+		"description": "useContext"
+	},
+	"useReducer": {
+		"prefix": "urd",
+		"body": [
+			"const [${1:state}, ${2:dispatch}] = useReducer(${3:reducerExample}, {});"
+		],
+		"description": "useReducer"
+	},
+	"useCallback": {
+		"prefix": "ucb",
+		"body": [
+			"const ${1} = useCallback(() => {",
+			"  ${2://doSomething}",
+			"}, []);"
+		],
+		"description": "useCallback"
+	},
+	"useMemo": {
+		"prefix": "um",
+		"body": [
+			"const ${1} = useMemo(() => {${2}}, []);"
+		],
+		"description": "useMemo"
+	},
+	"useRef": {
+		"prefix": "ur",
+		"body": [
+			"const ${1} = useRef(${2});"
+		],
+		"description": "useRef"
 	}
 }

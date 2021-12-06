@@ -1,8 +1,8 @@
-## 简介  
+## 简介
 
 Tce component 的代码片段
 
-## 使用方法  
+## 使用方法
 
 可以使用「tce-组件名」的方式来调用，例如：`tce-layout`
 
@@ -17,7 +17,7 @@ Tce component 的代码片段
 - 如有需要，还可以查看详情
   ![004](./images/004.gif)
 
-## 支持的组件
+## 支持的 TCE 组件
 
 - ConfirmModal
 - Detail
@@ -29,3 +29,15 @@ Tce component 的代码片段
 - Step
 - TableEditor
 - TablePage
+
+## 支持 React Hooks
+
+| 快捷键   | Hook        |
+| ----- | ----------- |
+| `us`  | useState    |
+| `ue`  | useEffect   |
+| `uct` | useContext  |
+| `urd` | useReducer  |
+| `ucb` | useCallback |
+| `um`  | useMemo     |
+| `ur`  | useRef      |

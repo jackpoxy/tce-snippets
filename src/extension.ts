@@ -580,6 +580,32 @@ export function activate(context: vscode.ExtensionContext) {
       }
     ];
     `,
+    contextExample: `
+    const themes = {
+      light: {
+        foreground: "#000000",
+        background: "#eeeeee"
+      },
+      dark: {
+        foreground: "#ffffff",
+        background: "#222222"
+      }
+    };
+    
+    const contextExample = React.createContext(themes.light);
+    `,
+    reducerExample: `
+    function reducer(state, action) {
+      switch (action.type) {
+        case 'increment':
+          return {count: state.count + 1};
+        case 'decrement':
+          return {count: state.count - 1};
+        default:
+          throw new Error();
+      }
+    }
+    `,
     // eslint-disable-next-line @typescript-eslint/naming-convention
     TableEditor: `
 [点击查看详情](http://test.jiguang.tce.oa.com/tcefe/TableEditor)
