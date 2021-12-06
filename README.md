@@ -32,7 +32,7 @@ Tce component 的代码片段
 
 ## 支持 React Hooks
 
-| 快捷键   | Hook        |
+| 前缀    | Hook        |
 | ----- | ----------- |
 | `us`  | useState    |
 | `ue`  | useEffect   |
